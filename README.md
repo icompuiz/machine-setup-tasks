@@ -4,7 +4,7 @@ This document will  preserve the steps for setting up a new windows box for deve
 1. Download and install chocolatey from http://chocolatey.org
 2. Execute
 ```
-cinst -yfr google-chrome-x64 robomongo sublimetext3 putty winscp git conemu mingw keepass dropbox openvpn adobe-creative-cloud tunnelier tortoisesvn 7zip ccleaner teamviewer rdm nginx skype wireshark sumatrapdf spotify paint.net nssm nsis nodejs mongodb.core.2.6
+cinst -yfr google-chrome-x64 robomongo sublimetext3 putty winscp git conemu mingw keepass dropbox openvpn adobe-creative-cloud tunnelier tortoisesvn 7zip ccleaner teamviewer rdm nginx skype wireshark sumatrapdf spotify paint.net nssm nsis nodejs mongodb.core.2.6 ruby
  ```
 3.set up services
 * Install mongodb windows service
@@ -18,7 +18,12 @@ cinst -yfr google-chrome-x64 robomongo sublimetext3 putty winscp git conemu ming
  ```
  set PATH=%PATH%;C:\mongodb\2.6.1\bin;C:\Program Files (x86)\Git\bin
  ```
+
 5. Install npm modules
- ```
- npm install -g grunt grunt-cli yo
- ```
+```
+npm install -g grunt grunt-cli yo
+```
+6. Install ruby gems
+```
+gem install sass
+```
