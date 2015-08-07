@@ -6,7 +6,7 @@ This document will  preserve the steps for setting up a new windows box for deve
 ```
 cinst -yfr google-chrome-x64 robomongo sublimetext3 putty winscp git conemu mingw keepass dropbox openvpn adobe-creative-cloud tunnelier tortoisesvn 7zip ccleaner teamviewer rdm nginx skype wireshark sumatrapdf spotify paint.net nssm nsis nodejs mongodb.core.2.6 ruby
  ```
-3.set up services
+3. set up services
 * Install mongodb windows service
 * Install nginx windows service
 * Install graphicsmagick
