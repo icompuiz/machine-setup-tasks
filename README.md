@@ -18,3 +18,7 @@ cinst -yfr google-chrome-x64 robomongo sublimetext3 putty winscp git conemu ming
 ```
 set PATH=%PATH%;C:\mongodb\2.6.1\bin;C:\Program Files (x86)\Git\bin
 ```
+5. Install npm modules
+```
+npm install -g grunt yo
+```
