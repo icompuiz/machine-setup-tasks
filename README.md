@@ -15,10 +15,10 @@ cinst -yfr google-chrome-x64 robomongo sublimetext3 putty winscp git conemu ming
 4. Set path variables
 * Add mongodb to path
 * Add linux utilities to path 
-```
-set PATH=%PATH%;C:\mongodb\2.6.1\bin;C:\Program Files (x86)\Git\bin
-```
+ ```
+ set PATH=%PATH%;C:\mongodb\2.6.1\bin;C:\Program Files (x86)\Git\bin
+ ```
 5. Install npm modules
-```
-npm install -g grunt yo
-```
+ ```
+ npm install -g grunt grunt-cli yo
+ ```
