@@ -38,7 +38,7 @@ option 2
 
 5. Install npm modules
 ```
-npm install -g grunt grunt-cli yo bower typescript
+npm install -g grunt grunt-cli yo bower typescript tsd
 ```
 6. Install ruby gems
 ```
