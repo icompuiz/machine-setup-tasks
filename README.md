@@ -38,9 +38,32 @@ option 2
 
 5. Install npm modules
 ```
-npm install -g grunt grunt-cli yo bower
+npm install -g grunt grunt-cli yo bower typescript
 ```
 6. Install ruby gems
 ```
 gem install sass
+```
+
+7. Install Sublime text packages
+```
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter-gjslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"TypeScript"
+	]
+}
 ```
