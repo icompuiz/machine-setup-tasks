@@ -2,7 +2,7 @@
 This document will  preserve the steps for setting up a new windows box for development
 
 1. Download and install chocolatey from http://chocolatey.org
-2. Execute
+2. Execute in an elevated console
 ```
 cinst -yfr google-chrome-x64 robomongo sublimetext3 putty winscp git conemu mingw keepass dropbox openvpn adobe-creative-cloud tunnelier tortoisesvn 7zip ccleaner teamviewer rdm nginx skype wireshark sumatrapdf spotify paint.net nssm nsis nodejs choco install procmon mongodb.core.2.6 ruby divvy python2
  ```
