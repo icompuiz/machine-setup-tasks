@@ -6,13 +6,13 @@ This document will  preserve the steps for setting up a new windows box for deve
 ```
 cinst -yfr google-chrome-x64 robomongo sublimetext3 putty winscp git conemu mingw keepass dropbox openvpn\
 adobe-creative-cloud tunnelier tortoisesvn 7zip ccleaner teamviewer rdm nginx skype wireshark sumatrapdf\
-spotify paint.net nssm nsis nodejs choco install procmon mongodb.core.2.6 ruby divvy python2 greenshot
+spotify paint.net nssm nsis nodejs choco install procmon mongodb.core.2.6 ruby divvy python2 greenshot slack
  ```
 option 2
 ```
 cinst -yfr google-chrome-x64 sublimetext3 putty winscp git conemu mingw keepass dropbox openvpn tunnelier\
 7zip ccleaner teamviewer nginx wireshark sumatrapdf spotify paint.net nssm nsis nodejs procmon ruby divvy\
-python2 greenshot
+python2 greenshot slack
 ```
 
 3. set up services
